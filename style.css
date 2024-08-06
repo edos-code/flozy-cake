@@ -1,0 +1,1793 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   
+   
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+.cake .nav{
+    width: 100%;
+    height: 15vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cake .nav .nav-head{
+    padding-left: 10px;
+    font-size: 25px;
+    font-family:monospace;
+    color: orange;
+    
+}
+
+.cake ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 20px;
+    margin-right: 200px;
+    overflow: hidden;
+   
+}
+
+.cake ul li a{
+    display: flex;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    
+    
+}
+
+.cake ul li a:hover{
+    background-color: hsl(39, 100%, 50%);
+    color: lime;
+ 
+}
+
+.cake .header{
+    width: 100%;
+    height: 60vh;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.637), rgba(0, 0, 0, 0.582)),url(./img/pexels-jonathanborba-2878737.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cake .header .header-head{
+    color: rgba(255, 255, 255, 0.473);
+    font-family: sans-serif;
+    font-style: italic;
+    padding-top: 200px;
+    padding-left: 30px;
+    font-weight: 50px;
+}
+
+.cake .burger{
+    color: rgba(255, 255, 255, 0.425);
+    display: contents;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+
+
+.cake .burger .burg-head{
+    margin-top: 70px;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: sans-serif;
+    line-height: 25px;
+}
+
+.cake .burger .cont{
+    display: flex;
+    justify-content: center;
+    gap: 65px;
+    
+}
+
+.cake .burger .cont .box1{
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+.cake .burger .cont .box1 .box-head{
+    color: goldenrod;
+    font-size: 17px;
+    padding-bottom: 15px;
+    line-height: 25px;
+    
+}
+
+.cake .burger .cont .box1 .box-mid{
+    
+    font-size: 13px;
+    padding-bottom: 15px;
+    line-height: 25px;
+    
+}
+
+.cake .burger .cont .box1 .box-down{
+    
+    font-size: 13px;
+    padding-bottom: 15px;
+    line-height: 25px;
+    
+}
+
+.cake .burger .cont .box1 img{
+    width: 350px;
+    height: 350px;
+}
+
+.cake .elemrnt  .elemrnt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+
+}
+
+.cake .food-lovers{
+    color: white;
+
+}
+
+.cake .food-lovers .food-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.cake .food-lovers .food-head{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 60px;
+    color: rgba(231, 225, 225, 0.747);
+}
+
+.cake .food-lovers .food-cont .box2:nth-child(2) {
+  border: 1px solid rgba(128, 128, 128, 0.178);
+}
+
+.cake .food-lovers .food-cont .box2 {
+   width: 310px;
+   height: 50vh;
+   border-top: 1px solid rgba(128, 128, 128, 0.267);
+   border-bottom: 1px solid rgba(128, 128, 128, 0.247);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: start;
+   padding: 15px 15px;
+}
+
+
+.cake .food-lovers .food-cont .box2 a{
+    color: goldenrod;
+    font-size: 12px;
+    padding: 10px 3px;
+    
+}
+
+.cake .food-lovers .food-cont .box2 .food-mid{
+    color: rgba(255, 255, 255, 0.329);
+    font-size: 14px;
+    padding-top: 20px;
+    line-height: 25px;
+    margin-left: 50px;
+    
+}
+.cake .food-lovers .food-cont .box2 .autor .name{
+    color: rgba(255, 255, 255, 0.699);
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+.cake .food-lovers .food-cont .box2 .stars{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.cake .food-lovers .food-cont .box2 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+
+}
+
+.cake .food-lovers .box2 .autor{
+    display: flex;
+    padding-top: 20px;
+    gap: 20px;
+    margin-left: 50px;
+}
+
+.cake .blog{
+    color: white;
+}
+
+.cake .blog-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 5px;
+
+}
+
+.cake .blog-header .blog-head{
+    font-size: 25px;
+    padding-top: 30px ;
+}
+
+.cake .blog-header .blog-btn{
+    font-size: 25px;
+    padding: 15px 15px;
+    background-color: orange;
+    border: none;
+    margin-top: 30px;
+}
+
+.cake .blog .container{
+    margin-top: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.cake .blog .container .blog-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.cake .blog .container .block-text{
+   line-height: 50px;
+   border: 1px solid gray;
+   width: 70%;
+   height: 60vh;
+   padding-top: 50px;
+}
+.cake .blog .container .block-head{
+  font-size: 20px;
+ margin-left: 50px;
+  padding: 15px 15px;
+  line-height: normal;
+  color: orange;
+}
+.cake .blog .container .block-mid{
+  font-size: 12px;
+ margin-left: 50px;
+  padding: 15px 15px;
+  line-height: 25px;
+  color: white;
+}
+.cake .blog .container .block-down{
+  font-size: 17px;
+  margin-left: 63px;
+  /* padding: 15px 15px; */
+  color:orange;
+
+}
+
+.cake .blog .box3 img{
+    width: 390px;
+    height: 390px;
+}
+.cake .blog .box3 {
+    margin-top: 60px;
+}
+
+
+.cake .cake-price{
+    color: rgba(180, 178, 178, 0.596);
+}
+
+.cake .cake-price .cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.cake .cake-price .box:hover{
+    opacity: 0.5;
+
+}
+
+
+.cake .cake-price img{
+    width: 270px;
+    height: 250px;
+}
+
+.cake .cake-price .cont .box .box-head{
+   font-size: 25px;
+   padding-top: 20px;
+} 
+.cake .cake-price .cont .box .box-mid{
+    padding-top: 10px;
+    color: goldenrod;
+} 
+
+
+
+.cake .instagram .insta-head{
+    color: rgba(170, 167, 167, 0.432);
+    margin-top: 200px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.cake .instagram .follow-link{
+   display: flex;
+   justify-content: center;
+   align-items: centerr;
+   flex-direction: row;
+   border: 1px solid goldenrod;
+   gap: 7px;
+   margin-top: 35px;
+   width: 150px;
+   height: 40px;
+   padding: 10px;
+   margin-left: 430px;
+   margin-bottom: 30px;
+ 
+   
+}
+
+.cake .instagram .link-head{
+    color: goldenrod;
+   
+}
+
+.cake .instagram .follow-link .link-icon a{
+    color: goldenrod;
+    
+   
+}
+
+
+
+.cake .instagram .cont1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 70px;
+    margin-bottom: 80px;
+   
+}
+
+.cake .instagram .cont1 .box1 img{
+    width: 190px;
+    height: 170px;
+}
+
+.cake .scrub{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.cake .scrub .insta-mid{
+    color: orange;
+    font-family: cursive  ;
+    /* padding-top: 70px; */
+}
+
+.cake .information .box4:nth-child(1){
+    background-color: rgb(201, 197, 197);
+    width: 80%;
+    height: 70vh;
+    margin-left: 10%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cake .information .box4 .info-mid{
+     font-size: 30px;
+     background-color: gray;
+     border-radius: 50%;
+     padding: 5px 15px;
+     color: white;
+}
+
+.cake .information .box4 .info-head{
+    font-size: 25px;
+    color: rgb(146, 144, 144);
+    padding: 10px 10px;
+
+}
+
+.cake .information .box4 .info-down{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.733);
+    padding: 10px 10px;
+
+}
+
+.cake .messages {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.cake .messages .left{
+    width: 70%;
+}
+
+.cake .messages .left .messages-info .msg-head{
+    color: white;
+    font-size: 20px;
+    padding-top: 50px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+}
+
+
+.cake .messages .left .messages-info .form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.cake .messages .left .messages-info #open-space{
+    width: 60%;
+    height: 30vh;
+    background-color: transparent;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    color: white;
+    border: 1px solid white;
+}
+.cake .messages .left .messages-info .space{
+    width: 29%;
+    height: 7vh;
+    background-color: transparent;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    color: white;
+    border: 1px solid white;
+}
+.cake .messages .left .messages-info #space-space{
+    width: 60%;
+    height: 7vh;
+    background-color: transparent;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    color: white;
+    border: 1px solid white;
+}
+
+.cake .messages .left .messages-info .form-btn{
+    width: 130px;
+    padding: 19px 10px ;
+    background-color: orange;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+.cake .messages .left .messages-info .form-btn:hover{
+    background-color: transparent;
+    border: 1px solid orange;
+    color: orange;
+}
+
+.cake .messages .right{
+    width: 30%;
+    color: white;
+}
+
+.cake .messages .right .r-contact .r-icon{
+    color: orange;
+    font-size: 30px;
+    
+}
+.cake .messages .right .r-contact .r-locate .r-l-head{
+    color: rgb(180, 180, 180);
+    padding-bottom: 2px;
+}
+.cake .messages .right .r-contact {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 90px;
+}
+.cake .messages .right .r-contact-1 {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.cake .messages .right .r-contact-1 .r-icon{
+    color: orange;
+    font-size: 30px;
+    
+}
+.cake .messages .right .r-contact-1 .r-locate .r-l-head{
+    color: rgb(180, 180, 180);
+    padding-bottom: 3px;
+}
+
+
+
+
+.cake .footer .cont-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 70px;
+    padding: 10px 10px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    margin-bottom: 30px;
+    width: 90%;
+    margin-left: 30px;
+    gap: 70px;
+  
+}
+
+.cake .footer .cont-2 .letter{
+    width: 40%;
+    height: 50vh;
+    margin-top: 70px;
+   
+  
+}
+
+.cake .letter-head{
+    color: white;
+    font-size: 15px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.cake .letter .letter-link{
+    display: flex;
+    justify-content: center;
+    align-items: centerr;
+    flex-direction: row;
+    border: 1px solid gray;
+    gap: 7px;
+    width: 150px;
+    height: 40px;
+    padding: 10px;
+    
+    
+  
+    
+ }
+ 
+ .cake .letter .letter-link-head{
+     color: white;
+    
+ }
+ 
+ .cake .letter .letter-link .letter-link-icon a{
+     color:white;
+     
+    
+ }
+
+ .cake .footer .social-media{
+    display: flex;
+    gap: 20px;
+    margin-top: 15px;
+ }
+
+ .cake .footer .cont-2 .location{
+    width: 50%;
+    height: 50vh;
+    background-color:transparent;
+}
+
+
+.cake .location .locate{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cake .location .locate .adress{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+   
+}
+
+.cake .location .locate .adress .where{
+    color: white;
+    font-size: 30px;
+}
+
+.cake .location .locate .adress .locate-head{
+    color: orange;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.cake .location .locate .adress .locate-mid{
+    color: white;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.cake .location .locate .adress .locate-down{
+    color: white;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+@media screen and (max-width:393px) {
+    .cake .nav{
+        width:100%;
+        height: 10vh;
+      
+        
+    }
+
+    .cake .nav .nav-head{
+        padding-left: 13px;
+        font-size: 17px;
+        
+        
+    }
+
+    .cake ul li a{
+        font-weight: lighter;
+        font-size: 14px;
+        padding: 10px; 
+    }
+
+    .cake ul{
+        gap: 2px;
+        margin-right: 10px;
+    }
+
+    .cake ul li a:hover{
+        background-color: hsla(39, 100%, 50%, 0.726);
+        color: white;
+     
+    }
+    
+    .cake .header{
+        width:100%;
+        height: 65vh;
+        background-image: linear-gradient(to left, rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.466)),url(./img/pexels-jonathanborba-2878737.jpg);
+       
+    }
+
+    .cake .burger .burg-head{
+        margin-top: 50px;
+        font-size: 20px;
+        
+    }
+
+    .cake .burger .cont{
+        display: flex;
+        flex-direction: column;
+        gap:4px;
+        
+    }
+
+    .cake .burger .cont .box1 .box-head{
+        font-size: 18px;
+        margin-left: 20px;
+    }
+    
+    .cake .burger .cont .box1 .box-mid{
+        
+        font-size: 14px;
+        margin-left: 10px;
+        
+        
+    }
+    
+    .cake .burger .cont .box1 .box-down{
+        
+        font-size: 14px;
+        margin-left: 10px;
+       
+        
+    }
+    
+    .cake .burger .cont .box1 img{
+        width: 350px;
+        height: 350px;
+        margin-left: 20px;
+    }
+
+    .cake .element  {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        margin-top: 10px;
+    
+    }
+
+    .cake .element video{
+        width: 350px;
+        height: 350px;
+    }
+    
+
+    .cake .food-lovers .food-head{
+        font-size: 23px;
+        margin-top: 20px;
+    }
+
+    .cake .food-lovers .food-cont{
+        display: flex;
+        flex-direction: column;
+ 
+    }
+
+    .cake .food-lovers .food-cont .box2 {
+        width: 370px;
+       
+        padding: 15px 15px;
+        
+     }
+
+     .cake .food-lovers .food-cont .box2 a{
+       
+        font-size: 17px;
+       
+        
+    }
+
+    .cake .food-lovers .food-cont .box2 .food-mid{
+        color: rgba(255, 255, 255, 0.329);
+        font-size: 17px;
+      
+        
+    }
+    .cake .food-lovers .food-cont .box2 .autor .name{
+        color: rgba(255, 255, 255, 0.699);
+        font-size: 16px;
+        padding-top: 20px;
+    }
+    
+  
+
+    
+
+    .cake .blog-header .blog-head{
+        font-size: 19px;
+        padding-top: 30px ;
+    }
+    
+    .cake .blog-header .blog-btn{
+        font-size: 17px;
+        padding: 10px 10px;
+      
+    }
+    
+    .cake .blog .container .blog-block img{
+         width: 360px;
+    }
+
+    .cake .blog .container .blog-block{
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+    .cake .blog .container .block-text{
+        line-height: 50px;
+        border: 1px solid gray;
+        width: 90%;
+        height: 60vh;
+        padding-top: 40px;
+     }
+
+     .cake .blog .container .block-head{
+        font-size: 23px;
+        margin-left: 20px;
+       
+      }
+      .cake .blog .container .block-mid{
+        font-size: 16px;
+        margin-left: 20px;
+       
+      }
+      .cake .blog .container .block-down{
+        font-size: 17px;
+        margin-left: 33px;
+      
+      
+      }
+
+     .cake .instagram .follow-link{
+       
+        margin-left: 110px;
+     }
+
+     .cake .instagram .insta-head{
+        color: rgba(170, 167, 167, 0.658);
+        margin-top: 100px;
+        
+    }
+
+    .cake .instagram .cont1 {
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    .cake .instagram .cont1 .box1 img{
+        width: 270px;
+        height: 210px;
+    }
+    
+    .cake .scrub .insta-mid{
+     
+        font-size: 14px;
+        padding-top: 5px;
+        padding-left: 10px;
+    }
+
+    .cake .footer .cont-2{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: 20px;
+        gap:5px;
+      
+    }
+
+    .cake .footer .cont-2 .letter{
+        width: 100%;
+       
+    }
+
+    .cake .footer .social-media{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 15px;
+        gap: 15px;
+     }
+
+     .cake .footer .cont-2 .location{
+        width: 70%;
+      
+    }
+    
+    
+    .cake .location .locate{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+       
+    }
+
+    .cake .messages {
+        display: flex;
+        flex-direction:column;
+    
+    }
+
+    .cake .information .box4:nth-child(1){
+        width: 90%;
+        margin-left: 4%;
+      
+    }
+
+    .cake .messages .left{
+        width: 90%;
+    }
+    
+    
+    .cake .messages .left .messages-info #open-space{
+        width: 100%;
+  
+    }
+    .cake .messages .left .messages-info .space{
+        width: 90%;
+      
+    }
+    .cake .messages .left .messages-info #space-space{
+        width: 90%;
+     
+    }
+    
+    .cake .messages .left .messages-info .form-btn{
+      
+        margin-left: 110px;
+      
+    }
+
+    .cake .messages .right{
+        width: 100%;
+        margin-left: 40px;
+        margin-bottom: 90px;
+    }
+    
+    
+    .cake .messages .right .r-contact {
+       
+        margin-top: 40px;
+    }
+
+ 
+    
+}
+
+@media screen and (max-width:414px) {
+    .cake .nav{
+        width:100%;
+        height: 10vh;
+      
+        
+    }
+
+    .cake .nav .nav-head{
+        padding-left: 13px;
+        font-size: 17px;
+        
+        
+    }
+
+    .cake ul li a{
+        font-weight: lighter;
+        font-size: 14px;
+        padding: 10px; 
+    }
+
+    .cake ul{
+        gap: 2px;
+        margin-right: 10px;
+    }
+
+    .cake ul li a:hover{
+        background-color: hsla(39, 100%, 50%, 0.726);
+        color: white;
+     
+    }
+    
+    .cake .header{
+        width:100%;
+        height: 65vh;
+        background-image: linear-gradient(to left, rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.466)),url(./img/pexels-jonathanborba-2878737.jpg);
+       
+    }
+
+    .cake .burger .burg-head{
+        margin-top: 50px;
+        font-size: 20px;
+        
+    }
+
+    .cake .burger .cont{
+        display: flex;
+        flex-direction: column;
+        gap:4px;
+        
+    }
+
+    .cake .burger .cont .box1 .box-head{
+        font-size: 18px;
+        margin-left: 20px;
+    }
+    
+    .cake .burger .cont .box1 .box-mid{
+        
+        font-size: 14px;
+        margin-left: 10px;
+        
+        
+    }
+    
+    .cake .burger .cont .box1 .box-down{
+        
+        font-size: 14px;
+        margin-left: 10px;
+       
+        
+    }
+    
+    .cake .burger .cont .box1 img{
+        width: 350px;
+        height: 350px;
+        margin-left: 20px;
+    }
+
+    .cake .element  {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        margin-top: 10px;
+    
+    }
+
+    .cake .element video{
+        width: 350px;
+        height: 350px;
+    }
+    
+
+    .cake .food-lovers .food-head{
+        font-size: 23px;
+        margin-top: 20px;
+    }
+
+    .cake .food-lovers .food-cont{
+        display: flex;
+        flex-direction: column;
+ 
+    }
+
+    .cake .food-lovers .food-cont .box2 {
+        width: 370px;
+       
+        padding: 15px 15px;
+        
+     }
+
+     .cake .food-lovers .food-cont .box2 a{
+       
+        font-size: 17px;
+       
+        
+    }
+
+    .cake .food-lovers .food-cont .box2 .food-mid{
+        color: rgba(255, 255, 255, 0.329);
+        font-size: 17px;
+      
+        
+    }
+    .cake .food-lovers .food-cont .box2 .autor .name{
+        color: rgba(255, 255, 255, 0.699);
+        font-size: 16px;
+        padding-top: 20px;
+    }
+    
+  
+
+    
+
+    .cake .blog-header .blog-head{
+        font-size: 19px;
+        padding-top: 30px ;
+    }
+    
+    .cake .blog-header .blog-btn{
+        font-size: 17px;
+        padding: 10px 10px;
+      
+    }
+    
+    .cake .blog .container .blog-block img{
+         width: 360px;
+    }
+
+    .cake .blog .container .blog-block{
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+    .cake .blog .container .block-text{
+        line-height: 50px;
+        border: 1px solid gray;
+        width: 90%;
+        height: 60vh;
+        padding-top: 40px;
+     }
+
+     .cake .blog .container .block-head{
+        font-size: 23px;
+        margin-left: 20px;
+       
+      }
+      .cake .blog .container .block-mid{
+        font-size: 16px;
+        margin-left: 20px;
+       
+      }
+      .cake .blog .container .block-down{
+        font-size: 17px;
+        margin-left: 33px;
+      
+      
+      }
+
+     .cake .instagram .follow-link{
+       
+        margin-left: 110px;
+     }
+
+     .cake .instagram .insta-head{
+        color: rgba(170, 167, 167, 0.658);
+        margin-top: 100px;
+        
+    }
+
+    .cake .instagram .cont1 {
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    .cake .instagram .cont1 .box1 img{
+        width: 270px;
+        height: 210px;
+    }
+    
+    .cake .scrub .insta-mid{
+     
+        font-size: 14px;
+        padding-top: 5px;
+        padding-left: 10px;
+    }
+
+    .cake .footer .cont-2{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: 20px;
+        gap:5px;
+      
+    }
+
+    .cake .footer .cont-2 .letter{
+        width: 100%;
+       
+    }
+
+    .cake .footer .social-media{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 15px;
+        gap: 15px;
+     }
+
+     .cake .footer .cont-2 .location{
+        width: 70%;
+      
+    }
+    
+    
+    .cake .location .locate{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+       
+    }
+
+    .cake .messages {
+        display: flex;
+        flex-direction:column;
+    
+    }
+
+    .cake .information .box4:nth-child(1){
+        width: 90%;
+        margin-left: 4%;
+      
+    }
+
+    .cake .messages .left{
+        width: 90%;
+    }
+    
+    
+    .cake .messages .left .messages-info #open-space{
+        width: 100%;
+  
+    }
+    .cake .messages .left .messages-info .space{
+        width: 90%;
+      
+    }
+    .cake .messages .left .messages-info #space-space{
+        width: 90%;
+     
+    }
+    
+    .cake .messages .left .messages-info .form-btn{
+      
+        margin-left: 110px;
+      
+    }
+
+    .cake .messages .right{
+        width: 100%;
+        margin-left: 40px;
+        margin-bottom: 90px;
+    }
+    
+    
+    .cake .messages .right .r-contact {
+       
+        margin-top: 40px;
+    }
+
+ 
+    
+}
+
+@media screen and (max-width:429px) {
+    .cake .nav{
+        width:100%;
+        height: 10vh;
+      
+        
+    }
+
+    .cake .nav .nav-head{
+        padding-left: 13px;
+        font-size: 17px;
+        
+        
+    }
+
+    .cake ul li a{
+        font-weight: lighter;
+        font-size: 14px;
+        padding: 10px; 
+    }
+
+    .cake ul{
+        gap: 2px;
+        margin-right: 10px;
+    }
+
+    .cake ul li a:hover{
+        background-color: hsla(39, 100%, 50%, 0.726);
+        color: white;
+     
+    }
+    
+    .cake .header{
+        width:100%;
+        height: 65vh;
+        background-image: linear-gradient(to left, rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.466)),url(./img/pexels-jonathanborba-2878737.jpg);
+       
+    }
+
+    .cake .burger .burg-head{
+        margin-top: 50px;
+        font-size: 20px;
+        
+    }
+
+    .cake .burger .cont{
+        display: flex;
+        flex-direction: column;
+        gap:4px;
+        
+    }
+
+    .cake .burger .cont .box1 .box-head{
+        font-size: 18px;
+        margin-left: 20px;
+    }
+    
+    .cake .burger .cont .box1 .box-mid{
+        
+        font-size: 14px;
+        margin-left: 10px;
+        
+        
+    }
+    
+    .cake .burger .cont .box1 .box-down{
+        
+        font-size: 14px;
+        margin-left: 10px;
+       
+        
+    }
+    
+    .cake .burger .cont .box1 img{
+        width: 350px;
+        height: 350px;
+        margin-left: 20px;
+    }
+
+    .cake .element  {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        margin-top: 10px;
+    
+    }
+
+    .cake .element video{
+        width: 350px;
+        height: 350px;
+    }
+    
+
+    .cake .food-lovers .food-head{
+        font-size: 23px;
+        margin-top: 20px;
+    }
+
+    .cake .food-lovers .food-cont{
+        display: flex;
+        flex-direction: column;
+ 
+    }
+
+    .cake .food-lovers .food-cont .box2 {
+        width: 370px;
+       
+        padding: 15px 15px;
+        
+     }
+
+     .cake .food-lovers .food-cont .box2 a{
+       
+        font-size: 17px;
+       
+        
+    }
+
+    .cake .food-lovers .food-cont .box2 .food-mid{
+        color: rgba(255, 255, 255, 0.329);
+        font-size: 17px;
+      
+        
+    }
+    .cake .food-lovers .food-cont .box2 .autor .name{
+        color: rgba(255, 255, 255, 0.699);
+        font-size: 16px;
+        padding-top: 20px;
+    }
+    
+  
+
+    
+
+    .cake .blog-header .blog-head{
+        font-size: 19px;
+        padding-top: 30px ;
+    }
+    
+    .cake .blog-header .blog-btn{
+        font-size: 17px;
+        padding: 10px 10px;
+      
+    }
+    
+    .cake .blog .container .blog-block img{
+         width: 360px;
+    }
+
+    .cake .blog .container .blog-block{
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+    .cake .blog .container .block-text{
+        line-height: 50px;
+        border: 1px solid gray;
+        width: 90%;
+        height: 60vh;
+        padding-top: 40px;
+     }
+
+     .cake .blog .container .block-head{
+        font-size: 23px;
+        margin-left: 20px;
+       
+      }
+      .cake .blog .container .block-mid{
+        font-size: 16px;
+        margin-left: 20px;
+       
+      }
+      .cake .blog .container .block-down{
+        font-size: 17px;
+        margin-left: 33px;
+      
+      
+      }
+
+     .cake .instagram .follow-link{
+       
+        margin-left: 110px;
+     }
+
+     .cake .instagram .insta-head{
+        color: rgba(170, 167, 167, 0.658);
+        margin-top: 100px;
+        
+    }
+
+    .cake .instagram .cont1 {
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    .cake .instagram .cont1 .box1 img{
+        width: 270px;
+        height: 210px;
+    }
+    
+    .cake .scrub .insta-mid{
+     
+        font-size: 14px;
+        padding-top: 5px;
+        padding-left: 10px;
+    }
+
+    .cake .footer .cont-2{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: 20px;
+        gap:5px;
+      
+    }
+
+    .cake .footer .cont-2 .letter{
+        width: 100%;
+       
+    }
+
+    .cake .footer .social-media{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 15px;
+        gap: 15px;
+     }
+
+     .cake .footer .cont-2 .location{
+        width: 70%;
+      
+    }
+    
+    
+    .cake .location .locate{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+       
+    }
+
+    .cake .messages {
+        display: flex;
+        flex-direction:column;
+    
+    }
+
+    .cake .information .box4:nth-child(1){
+        width: 90%;
+        margin-left: 4%;
+      
+    }
+
+    .cake .messages .left{
+        width: 90%;
+    }
+    
+    
+    .cake .messages .left .messages-info #open-space{
+        width: 100%;
+  
+    }
+    .cake .messages .left .messages-info .space{
+        width: 90%;
+      
+    }
+    .cake .messages .left .messages-info #space-space{
+        width: 90%;
+     
+    }
+    
+    .cake .messages .left .messages-info .form-btn{
+      
+        margin-left: 110px;
+      
+    }
+
+    .cake .messages .right{
+        width: 100%;
+        margin-left: 40px;
+        margin-bottom: 90px;
+    }
+    
+    
+    .cake .messages .right .r-contact {
+       
+        margin-top: 40px;
+    }
+
+ 
+    
+}
+
+@media screen and (max-width:360px) {
+    .cake .nav{
+        width: 360px;
+        height: 10vh;
+        
+    }
+
+    .cake .nav .nav-head{
+        padding-left: 12px;
+        font-size: 13px;
+        
+        
+    }
+
+    .cake ul li a{
+        font-weight: lighter;
+        font-size: 11px;
+        padding: 10px; 
+    }
+
+    .cake ul{
+        gap: 2px;
+        margin-right: 10px;
+    }
+
+    .cake ul li a:hover{
+        background-color: hsla(39, 100%, 50%, 0.726);
+        color: white;
+     
+    }
+    
+    .cake .header{
+        width:360px;
+        height: 50vh;
+        background-image: linear-gradient(to left, rgba(0, 0, 0, 0.459), rgba(0, 0, 0, 0.466)),url(./img/pexels-jonathanborba-2878737.jpg);
+       
+    }
+
+    .cake .burger .burg-head{
+        margin-top: 50px;
+        font-size: 15px;
+        
+    }
+
+    .cake .burger .cont{
+        display: flex;
+        flex-direction: column;
+        gap:4px;
+        
+    }
+
+    .cake .burger .cont .box1 .box-head{
+        font-size: 15px;
+        margin-left: 20px;
+    }
+    
+    .cake .burger .cont .box1 .box-mid{
+        
+        font-size: 11px;
+        margin-left: 10px;
+        
+        
+    }
+    
+    .cake .burger .cont .box1 .box-down{
+        
+        font-size: 11px;
+        margin-left: 10px;
+       
+        
+    }
+    
+    .cake .burger .cont .box1 img{
+        width: 300px;
+        height: 300px;
+        margin-left: 30px;
+    }
+
+    .cake .element  {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        margin-top: 10px;
+    
+    }
+
+    .cake .element video{
+        width: 300px;
+        height: 300px;
+    }
+    
+
+    .cake .food-lovers .food-head{
+        font-size: 17px;
+        margin-top: 20px;
+    }
+
+    .cake .food-lovers .food-cont{
+        display: flex;
+        flex-direction: column;
+ 
+    }
+
+    .cake .blog-header .blog-head{
+        font-size: 17px;
+        padding-top: 30px ;
+    }
+    
+    .cake .blog-header .blog-btn{
+        font-size: 15px;
+        padding: 10px 10px;
+      
+    }
+    
+    .cake .blog .container .blog-block img{
+         width: 310px;
+    }
+
+    .cake .blog .container .blog-block{
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+    .cake .blog .container .block-text{
+        line-height: 50px;
+        border: 1px solid gray;
+        width: 90%;
+        height: 60vh;
+        padding-top: 40px;
+     }
+
+     .cake .instagram .follow-link{
+       
+        margin-left: 110px;
+     }
+
+     .cake .instagram .insta-head{
+        color: rgba(170, 167, 167, 0.658);
+        margin-top: 100px;
+        
+    }
+
+    .cake .instagram .cont1 {
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    .cake .instagram .cont1 .box1 img{
+        width: 240px;
+        height: 190px;
+    }
+    
+    .cake .scrub .insta-mid{
+     
+        font-size: 14px;
+        padding-top: 5px;
+        padding-left: 10px;
+    }
+
+    .cake .footer .cont-2{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin-left: 20px;
+        gap: 20px;
+      
+    }
+
+    .cake .footer .cont-2 .letter{
+        width: 100%;
+       
+    }
+
+    .cake .footer .social-media{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-top: 15px;
+     }
+
+     .cake .footer .cont-2 .location{
+        width: 70%;
+      
+    }
+    
+    
+    .cake .location .locate{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+       
+    }
+
+    .cake .messages {
+        display: flex;
+        flex-direction:column;
+    
+    }
+
+    .cake .information .box4:nth-child(1){
+        width: 90%;
+        margin-left: 5%;
+      
+    }
+
+    .cake .messages .left{
+        width: 100%;
+    }
+    
+    
+    .cake .messages .left .messages-info #open-space{
+        width: 90%;
+  
+    }
+    .cake .messages .left .messages-info .space{
+        width: 90%;
+      
+    }
+    .cake .messages .left .messages-info #space-space{
+        width: 90%;
+     
+    }
+    
+    .cake .messages .left .messages-info .form-btn{
+      
+        margin-left: 110px;
+      
+    }
+
+    .cake .messages .right{
+        width: 100%;
+        margin-left: 40px;
+        margin-bottom: 90px;
+    }
+    
+    
+    .cake .messages .right .r-contact {
+       
+        margin-top: 40px;
+    }
+   
+    
+}
+
+
